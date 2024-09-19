@@ -1,0 +1,85 @@
+.jotai-counter-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  flex: 1;
+ }
+
+.jotai-counter-container h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #ff8c34;
+}
+
+.jotai-counter-container .counter-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 24px;
+}
+
+.jotai-counter-container .counter-container .counter {
+    font-size: 10rem;
+    font-weight: 700;
+    color: #ff8c34;
+    margin: 12px;
+}
+
+.jotai-counter-container .counter-container .render-counter {
+    font-size: 2rem;
+        font-weight: 400;
+        color: #ff8c34;
+        margin: 8px;
+}
+
+.jotai-counter-container .button-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    padding: 48px;
+}
+
+.jotai-counter-container .button-container .button-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.jotai-counter-container .button-container .button {
+    padding: 10px 30px;
+    border: none;
+    border-radius: 15px;
+    border: 1px solid #ff8c34 ;
+    background: transparent;
+    color: #ff8c34;
+    font-size: 2rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(255, 140, 52, 0.4);;
+    transition: all 0.3s ease;
+    outline: none;
+}
+
+.jotai-counter-container .button-container .button:hover {
+    background: #ff8c34;
+    box-shadow: 0 4px 15px rgba(255, 140, 52, 0.8);
+    color: #000000;
+}
+
+.jotai-counter-container .button-container .button:focus {
+    outline: none;
+}
+
+.jotai-counter-container .button-container .render-counter {
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #ff8c34;
+    margin: 8px;
+}
